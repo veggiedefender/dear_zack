@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dear zack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    h1 {
+      font-size: 100px;
+      text-align: center;
+    }
+    p {
+      font-family: monospace;
+      font-size: 20px;
+      position: absolute;
+      left: 30%;
+    }
+  </style>
+</head>
+<body>
+  <h1>🦲
+    <span id="camera">📷</span>
+  </h1>
+  <p><em>let me see</em></p>
+  <script>
+    var c = document.getElementById('camera')
+
+    function a() {c.innerHTML='📸'; setTimeout(b, 150)}
+    function b() {c.innerHTML='📷'; setTimeout(a, 800)}
+
+    a()
+  </script>
+</body>
+</html>
